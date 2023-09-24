@@ -9,15 +9,15 @@
 
 ### Requisitos
 
-[x] GET /pessoa => retorna todas as pessoas registradas
+- [x] GET /pessoa => retorna todas as pessoas registradas
 
-[x] POST /pessoa => persiste uma nova pessoa
+- [x] POST /pessoa => persiste uma nova pessoa
 
-[x] DELETE /pessoa/<id> => excluir a pessoa com id = <id>
+- [x] DELETE /pessoa/<id> => excluir a pessoa com id = <id>
 
-[x] GET /pessoa/<id> => retorna os dados da pessoa com id = <id>
+- [x] GET /pessoa/<id> => retorna os dados da pessoa com id = <id>
 
-[x] PATCH /pessoa/<id> => atualiza os dados da pessoa com id = <id>
+- [x] PATCH /pessoa/<id> => atualiza os dados da pessoa com id = <id>
 
 ### Obs:
 - Estou testando as rotas via Insomina
