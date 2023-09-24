@@ -1,4 +1,4 @@
-### O projeto esta ultilizando as seguintes tecnologias:
+### Tecnologies:
 
 `Node >= 16.14.1`
 `Express`
