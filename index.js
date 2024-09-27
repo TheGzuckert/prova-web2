@@ -52,7 +52,6 @@ app.get('/usuarios/:id', (req, res) => {
 
 
 //Altera informalções de usuário:
-
 app.patch('/usuarios/:id', (req, res) => {
   const idUsuario = req.params.id;
   const dadosAtualizados = req.body;
@@ -65,7 +64,6 @@ app.patch('/usuarios/:id', (req, res) => {
     res.json({ message: 'Usuário atualizado com sucesso', usuario });
   }
 });
-
 
 //Imprimi rota no terminal
 app.listen(port, () => {
